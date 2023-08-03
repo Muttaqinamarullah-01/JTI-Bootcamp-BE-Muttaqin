@@ -21,6 +21,7 @@ if (process.env.VCAP_APPLICATION) {
 }
 
 app.listen(port, function(){
+    console.log(hostname)
     console.log('Listening at port 3000')
 })
 
