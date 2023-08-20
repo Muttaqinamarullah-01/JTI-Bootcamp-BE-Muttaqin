@@ -3,7 +3,7 @@ const mongo = require("mongojs");
 
 const router = express.Router();
 
-const dbPass = "5phP5jdegKIxFXyb";
+const dbPass = "qsvMC7w44Z9kn0qb";
 const dbUsername = "muttaqinamarullah01";
 const db = mongo(
   `mongodb+srv://${dbUsername}:${dbPass}@muttaqintodo.ycgtmo0.mongodb.net/CSR`,
