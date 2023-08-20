@@ -1,6 +1,8 @@
 # Use a base image
 FROM node:18
 
+RUN apt-get update && apt-get upgrade
+
 #Set the working directory
 WORKDIR /usr/src/app
 
