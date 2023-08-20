@@ -1,0 +1,15 @@
+[{
+  "_id": 1,
+  "isCompleted": true,
+  "text": "Belajar"
+},
+{
+  "_id": 2,
+  "text": "Tidur",
+  "isCompleted": true
+},
+{
+  "_id": 3,
+  "isCompleted": false,
+  "text": "Makan"
+}]
